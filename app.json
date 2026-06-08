@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-scaffold",
-    "slug": "expo-scaffold",
+    "slug": "thread-vault",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e45bf3ae-d644-4dcf-a754-4ff431cb6862"
+      }
+    },
+    "owner": "rayn3r-studios"
   }
 }
