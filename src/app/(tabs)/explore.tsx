@@ -6,8 +6,8 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Collapsible } from "@/features/explore/collapsible";
 import { ExternalLink } from "@/features/explore/external-link";
 import { WebBadge } from "@/features/explore/web-badge";
-import { ThemedText } from "@/layout/themed/themed-text";
-import { ThemedView } from "@/layout/themed/themed-view";
+import { ThemedText } from "@/theme/components/themed-text";
+import { ThemedView } from "@/theme/components/themed-view";
 import { useTheme } from "@/theme/hooks/use-theme";
 import { BottomTabInset, MaxContentWidth, Spacing } from "@/theme/theme";
 

@@ -1,5 +1,5 @@
 {
-  "name": "expo-scaffold",
+  "name": "thread-vault",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "dependencies": {
@@ -32,11 +32,11 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --port 3001",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "android": "expo start --android --port 3001",
+    "ios": "expo start --ios --port 3001",
+    "web": "expo start --web --port 3001",
     "lint": "expo lint"
   },
   "private": true

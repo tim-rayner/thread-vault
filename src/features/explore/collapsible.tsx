@@ -3,8 +3,8 @@ import { PropsWithChildren, useState } from "react";
 import { Pressable, StyleSheet } from "react-native";
 import Animated, { FadeIn } from "react-native-reanimated";
 
-import { ThemedText } from "@/layout/themed/themed-text";
-import { ThemedView } from "@/layout/themed/themed-view";
+import { ThemedText } from "@/theme/components/themed-text";
+import { ThemedView } from "@/theme/components/themed-view";
 import { useTheme } from "@/theme/hooks/use-theme";
 import { Spacing } from "@/theme/theme";
 
